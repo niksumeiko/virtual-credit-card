@@ -1,0 +1,20 @@
+.item {
+    min-height: 4rem;
+    position: relative;
+    text-transform: uppercase;
+
+    svg {
+        top: calc(50% - 1.05rem);
+        left: 1rem;
+    }
+
+    a {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        line-height: 4.2rem;
+        text-indent: 4rem;
+    }
+}

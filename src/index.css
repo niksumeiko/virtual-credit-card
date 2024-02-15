@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: url("/beams-basic.png") no-repeat top center;
+}

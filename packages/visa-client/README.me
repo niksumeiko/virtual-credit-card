@@ -1,0 +1,23 @@
+# Official JavaScript SDK from VISA
+
+It can generate virtual credit cards.
+
+### Usage
+
+Available interfaces:
+```ts
+export function createVirtualCreditCard(): Promise<CreditCard>;
+
+export type CreditCard = {
+    id: number;
+    holder: string;
+    expiry: Date;
+    cvc: number;
+};
+```
+
+```ts
+import { createVirtualCreditCard } from 'visa-client';
+
+const card = await createVirtualCreditCard();
+```

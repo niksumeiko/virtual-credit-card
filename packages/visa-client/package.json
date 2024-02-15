@@ -1,0 +1,9 @@
+{
+  "name": "visa-client",
+  "description": "Official JavaScript SDK from VISA",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
