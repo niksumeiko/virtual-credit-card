@@ -13,6 +13,9 @@ export const LandingPage = () => {
                     <Link to="/wip">My cards</Link>
                 </MainMenu.Item>
                 <MainMenu.Item>
+                    <Link to="/virtual-card">Virtual card</Link>
+                </MainMenu.Item>
+                <MainMenu.Item>
                     <Link to="/wip">Portfolio</Link>
                 </MainMenu.Item>
                 <MainMenu.Item>
