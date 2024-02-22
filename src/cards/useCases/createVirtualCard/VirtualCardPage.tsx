@@ -22,7 +22,7 @@ export const VirtualCardPage = () => {
                 {card && (
                     <>
                         <Card data-test="virtual-card" card={card} />
-                        <Alert title="Important" variant="info">
+                        <Alert data-test="information" title="Important" variant="info">
                             Virtual card is for a single use only (e.g., for secure online
                             shopping). It is automatically destroyed after successful
                             purchase.
